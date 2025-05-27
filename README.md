@@ -1,6 +1,6 @@
-# 🧑‍🏫 Einführung: Was ist Programmieren?
+# Einführung: Was ist Programmieren?
 
-## 🎯 Lernziele
+## Lernziele
 - Die Teilnehmenden verstehen, was Programmieren ist und warum es wichtig ist.
 - Sie lernen zentrale Begriffe kennen.
 - Sie visualisieren den Ablauf eines Programmierprozesses.
@@ -8,7 +8,7 @@
 
 ---
 
-## ❓ W-Fragen: Programmieren verstehen
+## W-Fragen: Programmieren verstehen
 
 | Frage | Antwort |
 |-------|---------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 🧠 Zentrale Begriffe
+## Zentrale Begriffe
 
 | Begriff | Erklärung |
 |--------|-----------|
@@ -35,7 +35,7 @@
 
 ---
 
-## 🖼️ Visualisierung
+## Visualisierung
 
 ```
 [Du]
@@ -54,28 +54,3 @@ Oder als Analogie:
 Rezept (Code) → Koch (Computer) → Gericht (Ergebnis)
 ```
 
----
-
-## 📋 Didaktischer Ablauf (60–90 Min)
-
-### Schritt 1: Theoretischer Überblick (30 Min)
-- W-Fragen & Begriffe besprechen
-- Diskussion: Wo begegnet dir Code im Alltag?
-- Analogie: „Kochrezept“ oder „Lego-Bauanleitung“
-
-### Schritt 2: Gruppenvisualisierung (20 Min)
-**Aufgabe:** Zeichne auf ein Blatt:
-1. Wie du dir vorstellst, dass eine Website entsteht  
-2. Wo der Code sitzt  
-3. Wer was macht (Du – Editor – Computer – Browser)
-
-→ Danach Gruppenvergleich & Austausch
-
-### Schritt 3: Erste Übung (30–40 Min)
-- **Blockly Games:** https://blockly.games/
-- **Scratch:** https://scratch.mit.edu/
-- **Papier-Programmierung:** Schreibe Anweisungen wie ein Roboter: „Gehe 2 Schritte vor“ → auf Flipchart übertragen
-
----
-
----
