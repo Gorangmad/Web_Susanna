@@ -1,41 +1,44 @@
 # Einführung: Was ist Programmieren?
 
-## Lernziele
+## 🎯 Lernziele
 - Die Teilnehmenden verstehen, was Programmieren ist und warum es wichtig ist.
 - Sie lernen zentrale Begriffe kennen.
 - Sie visualisieren den Ablauf eines Programmierprozesses.
 - Sie führen erste eigene „Anweisungen“ aus.
+- Sie unterscheiden Frontend und Backend.
+- Sie verstehen, wie Programme logisch ablaufen.
+- Sie lernen Projektstrukturen, Fehlerarten und das Denken wie ein Entwickler kennen.
 
 ---
 
-## W-Fragen: Programmieren verstehen
+## ❓ W-Fragen: Programmieren verstehen
 
 | Frage | Antwort |
 |-------|---------|
-| **Was** ist Programmieren? | Programmieren ist das Erstellen von Anweisungen, die ein Computer Schritt für Schritt ausführt. |
-| **Warum** programmieren wir? | Um Aufgaben zu automatisieren, Websites und Apps zu entwickeln, Probleme zu lösen oder mit Maschinen zu kommunizieren. |
-| **Wie** funktioniert Programmieren? | Durch das Schreiben von Code in einer Programmiersprache, der vom Computer interpretiert oder kompiliert wird. |
-| **Wer** programmiert? | Entwickler:innen, Data Scientists, Hobbyisten – jeder kann lernen zu programmieren. |
-| **Wo** wird programmiert? | In Editoren wie VS Code, Terminal, Browser-Tools oder Online-Plattformen. |
-| **Wann** ist Programmieren sinnvoll? | Immer, wenn man Dinge automatisieren oder gestalten will – z. B. Webseiten, Spiele, Datenanalysen. |
+| **Was** ist Programmieren? | Das Erstellen von Anweisungen, die ein Computer Schritt für Schritt ausführt. |
+| **Warum** programmieren wir? | Um Aufgaben zu automatisieren, Websites und Apps zu entwickeln oder Probleme zu lösen. |
+| **Wie** funktioniert Programmieren? | Durch das Schreiben von Code in einer Sprache, die vom Computer ausgeführt wird. |
+| **Wer** programmiert? | Entwickler:innen, Wissenschaftler:innen, Künstler:innen, jeder kann es lernen. |
+| **Wo** wird programmiert? | In Code-Editoren wie VS Code, im Browser oder auf Servern. |
+| **Wann** ist es sinnvoll? | Immer, wenn man etwas automatisieren oder digital gestalten möchte. |
 
 ---
 
-## Zentrale Begriffe
+## 🧠 Zentrale Begriffe
 
 | Begriff | Erklärung |
 |--------|-----------|
-| **Code** | Die geschriebenen Anweisungen |
-| **Programm** | Eine Sammlung von Code, der etwas tut |
-| **Syntax** | Die Regeln der jeweiligen Sprache |
-| **Editor** | Das Programm, in dem man Code schreibt |
-| **Compiler/Interpreter** | Übersetzt Code für den Computer |
+| **Code** | Geschriebene Anweisungen |
+| **Programm** | Ausgeführte Code-Sammlung |
+| **Syntax** | Sprachregeln einer Programmiersprache |
+| **Editor** | Werkzeug zum Schreiben von Code |
+| **Compiler/Interpreter** | Übersetzer für den Computer |
 | **Fehler (Bugs)** | Probleme im Code |
-| **Debugging** | Fehler finden und beheben |
+| **Debugging** | Fehler suchen und beheben |
 
 ---
 
-## Visualisierung
+## 🖼️ Visualisierung
 
 ```
 [Du]
@@ -53,10 +56,10 @@ Oder als Analogie:
 ```
 Rezept (Code) → Koch (Computer) → Gericht (Ergebnis)
 ```
-## Wie sprechen Computer?
 
-Computer verstehen **nur Nullen und Einsen**: sogenannte **Maschinensprache** (Binary Code).  
-Damit wir nicht in 100101010 schreiben müssen, benutzen wir:
+---
+
+## 💾 Wie sprechen Computer?
 
 ```
 Maschinensprache (01010101)
@@ -68,35 +71,33 @@ Hochsprachen wie Python, JS, Java
 Du (entwickelst Webseiten, Spiele, Apps)
 ```
 
-## Was sind Programmiersprachen?
+---
 
-Programmiersprachen sind wie Sprachen zwischen dir und dem Computer. Du gibst Anweisungen – die Programmiersprache übersetzt sie in etwas, das der Computer versteht.
+## 🌐 Was sind Programmiersprachen?
 
-Es gibt **viele Programmiersprachen**, z. B.:
+Programmiersprachen übersetzen deine Anweisungen in etwas, das der Computer versteht.
 
-- **HTML** → für Inhalte und Struktur von Webseiten
-- **CSS** → für Farben, Layout und Design
-- **JavaScript** → für Interaktionen auf Webseiten
-- **Python** → für Automatisierung, KI, Datenverarbeitung
-- **C++/C#** → für Systemprogramme und Spiele
-- **SQL** → für Datenbankabfragen
+Beispiele:
+- **HTML** – Struktur
+- **CSS** – Design
+- **JavaScript** – Interaktivität
+- **Python** – Datenanalyse, Automatisierung
+- **C++/C#** – Systemnah oder Spieleentwicklung
+- **SQL** – Datenbanken
 
 ---
 
-## HTML vs CSS vs JavaScript
+## 🔍 HTML vs CSS vs JavaScript
 
 | Sprache | Aufgabe | Beispiel |
 |--------|---------|----------|
-| **HTML** | Struktur & Inhalt | `<h1>Hallo Welt</h1>` |
-| **CSS** | Design | `h1 { color: red; }` |
-| **JavaScript** | Interaktivität | `alert("Hallo!");` |
-
->  Merksatz:  
-> **HTML ist das Skelett**, **CSS ist das Aussehen**, **JavaScript ist die Bewegung**.
+| HTML | Struktur | `<h1>Hallo Welt</h1>` |
+| CSS | Styling | `h1 { color: red; }` |
+| JS | Interaktivität | `alert("Hallo!");` |
 
 ---
 
-## Visualisierung: Aufbau einer Website
+## 📁 Visualisierung Projektstruktur
 
 ```
 [ index.html ]
@@ -108,31 +109,117 @@ Es gibt **viele Programmiersprachen**, z. B.:
 [ Webseite im Browser ]
 ```
 
+---
 
+## ⚙️ Frontend & Backend
+
+### Was ist was?
+
+| Teil | Beschreibung | Sichtbar |
+|------|--------------|----------|
+| Frontend | Alles, was im Browser läuft | ✅ |
+| Backend | Alles, was im Hintergrund auf dem Server läuft | ❌ |
+
+### Vergleich:
+
+| Merkmal | Frontend | Backend |
+|---------|----------|---------|
+| Wo? | Browser | Server |
+| Sprache | HTML, CSS, JS | Node.js, Python |
+| Datenbankzugriff | Nein | Ja |
+| Sichtbar? | Ja | Nein |
 
 ---
 
-## Vergleich: Wann benutzt man welche Sprache?
+## 🔗 Kommunikation: API
 
-| Ziel | Geeignete Sprache |
-|------|-------------------|
-| Webseite mit Inhalt | HTML |
-| Webseite schön gestalten | CSS |
-| Klicks und Interaktionen | JavaScript |
-| Daten analysieren | Python |
-| Datenbank abfragen | SQL |
-| Spiele oder Apps | C#, Unity, JavaScript |
+Beispiel: Kontaktformular
+
+```
+User klickt „Senden“
+ ↓
+JS sendet Daten über API an Express-Backend
+ ↓
+Backend verarbeitet & antwortet
+ ↓
+Browser zeigt „Erfolg“-Meldung
+```
 
 ---
 
-## Vorbereitung auf dein erstes Projekt
+## 🚦 Wie läuft ein Programm ab?
 
-Dein Portfolio wird:
+Ein Programm läuft Zeile für Zeile:
 
-- in **HTML** aufgebaut,
-- mit **CSS** schön gestaltet,
-- durch **JavaScript** interaktiv.
+```text
+1. Begrüße Nutzer
+2. Frage Name
+3. Zeige personalisierte Nachricht
+```
 
-Danach lernst du:
-- **APIs** einbinden (z. B. GitHub-Projekte anzeigen)
-- **ein Backend** mit Node.js und Express bauen
+→ Das nennt man **Control Flow** – gesteuert durch `if`, `for`, `function`.
+
+---
+
+## 🧠 Statisch vs Dynamisch
+
+| Art | Beschreibung | Beispiel |
+|-----|--------------|----------|
+| Statisch | Inhalte fest im Code | Portfolio-Seite |
+| Dynamisch | Inhalte entstehen beim Laden | Wetter, Login, API |
+
+---
+
+## 🐞 Fehlerarten
+
+| Fehler | Bedeutung | Beispiel |
+|--------|-----------|----------|
+| Syntaxfehler | Falsche Schreibweise | `funtion()` |
+| Logikfehler | Code funktioniert, aber tut das Falsche | falsche Berechnung |
+
+---
+
+## 📦 Projektstruktur
+
+```
+portfolio-website/
+├── index.html
+├── styles/
+│   └── style.css
+├── scripts/
+│   └── main.js
+└── img/
+    └── me.jpg
+```
+
+→ Struktur hilft bei Übersicht und Teamarbeit.
+
+---
+
+## 🕹️ Was ist Git?
+
+- Versionierung von Code
+- Änderungen speichern und rückgängig machen
+- Zusammenarbeit mit anderen
+
+> GitHub = Plattform, um Git-Projekte online zu speichern
+
+---
+
+## 🧠 Denkweise: Wie denkt ein Programmierer?
+
+1. **Zerlegen** – in kleine Teile
+2. **Abstrahieren** – Muster erkennen
+3. **Algorithmen bauen** – Reihenfolgen definieren
+4. **Testen** – Fehler suchen und verbessern
+
+---
+
+## ✅ Checkliste
+
+- [x] Ich weiß, was Programmieren ist
+- [x] Ich kenne Frontend vs. Backend
+- [x] Ich kenne HTML, CSS und JS
+- [x] Ich habe gelernt, wie Programme ablaufen
+- [x] Ich weiß, was APIs und Projektstruktur sind
+- [x] Ich habe das Grundprinzip von Git verstanden
