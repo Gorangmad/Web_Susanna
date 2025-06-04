@@ -223,3 +223,72 @@ portfolio-website/
 - [x] Ich habe gelernt, wie Programme ablaufen
 - [x] Ich weiß, was APIs und Projektstruktur sind
 - [x] Ich habe das Grundprinzip von Git verstanden
+
+
+# 🧠 Wiederholungsfragen: Einführung in die Programmierung
+
+Beantworte die folgenden Fragen schriftlich oder bespreche sie in der Gruppe:
+
+---
+
+### 1. Was versteht man unter „Programmieren“?
+
+---
+
+### 2. Warum ist Programmieren in der heutigen Welt so wichtig?
+
+---
+
+### 3. Was ist der Unterschied zwischen HTML, CSS und JavaScript?
+
+---
+
+### 4. Was ist der Unterschied zwischen einem Editor und einem Compiler?
+
+---
+
+### 5. Was macht ein Browser mit HTML- und CSS-Dateien?
+
+---
+
+### 6. Erkläre mit deinen Worten den Begriff „Frontend“. Nenne zwei typische Sprachen.
+
+---
+
+### 7. Was passiert im „Backend“ einer Website? Nenne ein Beispiel.
+
+---
+
+### 8. Wie kommunizieren Frontend und Backend miteinander?
+
+---
+
+### 9. Was ist eine API, und wofür wird sie gebraucht?
+
+---
+
+### 10. Welche zwei Arten von Fehlern kann ein Programm enthalten? Gib je ein Beispiel.
+
+---
+
+### 11. Wie sieht eine typische Projektstruktur für eine einfache Website aus?
+
+---
+
+### 12. Wie funktioniert die Denkweise eines Programmierers? Nenne die vier Schritte.
+
+---
+
+### 13. Was ist der Unterschied zwischen einem statischen und einem dynamischen Inhalt?
+
+---
+
+### 14. Was bedeutet „Control Flow“? Welche Schlüsselwörter (z. B. in JS) steuern ihn?
+
+---
+
+### 15. Was ist Git, und warum wird es beim Programmieren verwendet?
+
+---
+
+
